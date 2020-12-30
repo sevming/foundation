@@ -1,0 +1,27 @@
+{
+    "name": "sevming/foundation",
+    "description": "Foundation SDK",
+    "homepage": "https://github.com/sevming",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sevming",
+            "email": "sevming@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "sevming/support": "^1.0 || ^2.0",
+        "pimple/pimple": "^3.0",
+        "doctrine/cache": "^1.7",
+        "monolog/monolog": "^1.22 || ^2.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "symfony/http-foundation": "^3.0 || ^4.0 || ^5.0",
+        "symfony/event-dispatcher": "^4.0 || ^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sevming\\Foundation\\": "src"
+        }
+    }
+}
